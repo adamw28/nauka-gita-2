@@ -5,14 +5,9 @@
 	text-align:center;
 }
 .author p,.title p{
-<<<<<<< HEAD
-	display:inline;
-}
-=======
 		display:inline;
 		font-style:italic;
 	}
->>>>>>> second
 .title{
 	text-decoration:underline;
 }
