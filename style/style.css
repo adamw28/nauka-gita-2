@@ -4,6 +4,9 @@
 .author,.title{
 	text-align:center;
 }
+.author p,.title p{
+	display:inline;
+}
 .title{
 	text-decoration:underline;
 }
