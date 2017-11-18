@@ -4,6 +4,8 @@
 .author,.title{
 	text-align:center;
 	margin:10px;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
 }
 .author h1,.title h2{
