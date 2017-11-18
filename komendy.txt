@@ -1,1 +1,1 @@
-autoprefixer-cli -o style/style.prefixed.css style.css
+autoprefixer-cli -o style/style.prefixed.css style/style.css

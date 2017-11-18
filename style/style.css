@@ -3,13 +3,13 @@
 }
 .author,.title{
 	text-align:center;
+	margin:10px;
 }
-.author p,.title p{
-		display:inline;
-		font-style:italic;
-	}
+.author h1,.title h2{
+		display:inline;	}
 .title{
 	text-decoration:underline;
+	font-style:italic;
 }
 .text{
 	font-style:italic;
