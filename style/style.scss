@@ -4,6 +4,12 @@
 .author,.title{
 	text-align:center;
 }
+.author,.title{
+	text-align:center;
+	p{
+		display:inline;
+		font-style:italic;
+	}
 .title{
 	text-decoration:underline;
 }
