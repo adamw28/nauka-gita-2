@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:html",
-  "test:html": "nu-html-checker *.html"
+    "test": "npm run lint && mocha test"
   },
   "repository": {
     "type": "git",
