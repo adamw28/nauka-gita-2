@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+.author,.title{
+	text-align:center;
+	p{
+		display:inline;
+		font-style:italic;
+	}
+}
+.title{
+	text-decoration:underline;
+}
+.text{
+	font-style:italic;
+	color:white;
+	background:#1f2375;
+	width:500px;
+}
+.verse{
+	margin:10px;
+}
+.verse p{
+	margin:0;
+}
