@@ -13,11 +13,10 @@
     "build:autoprefixer": "autoprefixer-cli css/style.css",
 
     "watch": "parallelshell \"npm run watch:sass\" \"npm run watch:autoprefixer\" ",
-    "watch:sass": "sass --watch sass:css",
+    "watch:sass": "sass --watch css/style.scss:css/style.css",
     "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css"
 
-/*    "watch": "npm run watch:sassprefixer ",
-    "watch:sassprefixer": "onchange css/style.scss -- parallelshell \"sass css/style.scss:css/style.css\" \"autoprefixer-cli -o css/style.css\" "*/
+
   },
   "repository": {
     "type": "git",
