@@ -8,6 +8,8 @@
     font-style: italic; }
 
 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-decoration: underline; }
 
